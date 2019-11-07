@@ -47,11 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-* {
-  box-sizing: border-box;
-}
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -72,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-between;
+  align-items: center;
 }
 
 header {
@@ -91,12 +89,38 @@ img {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: bold;
   text-align: center;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
+}
+
+.left-content .left-text {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.left-content h3 {
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.left-content p {
+  margin-left: 3%;
 }
