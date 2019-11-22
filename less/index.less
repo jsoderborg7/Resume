@@ -51,7 +51,7 @@ table {
 }
 
 .left-content{
-  width: 27%;
+  width: 28%;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -74,12 +74,13 @@ table {
       width: 65%;
       border-radius: 150px;
       opacity: .8;
-      margin-top: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
 
   .left-text{
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -98,23 +99,17 @@ table {
   }
 
   .contact{
-    margin-top: 1rem;
+    margin-top: 2rem;
     ul{
       padding: 1rem;
     }
   }
 
   .hobbies{
-    margin-top: 1rem;
+    margin-top: 2rem;
     
     ul{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      li{
-        padding: .7rem;
-      }
+      padding: 1rem;
     }
   }
 }
@@ -124,82 +119,137 @@ table {
   width: 90%;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  display: flex;
-  justify-items: space-evenly;
   // border: 2px solid aqua;
+  display: flex;
+  flex-direction: row;
+
+  h3{
+    font-family: "Pacifico";
+    font-size: 2.5rem;
+    text-align: center;
+  } 
 
     .employment{
-      width: 90%;
+      width: 50%;
       border-right: 2px solid #fec2ad;
       display: flex;
       flex-direction: column;
-    }
-
-    .rightRight{
-      display: flex;
-      flex-direction: column;
-      // border: 2px solid pink;
-      width: 90%;
-
-      .Education{
-
-
-        p{
-          padding-top: 1rem;
+    
+      .work{
+        display: flex;
+        align-items: flex-start;
+        padding: 1rem;
+        width: 100%;
+    
+        .text{
+          padding-left: 1rem;
+    
+          h4{
+            font-size: 1.3rem;
+            font-weight: bold;
+          }
+  
+          ul{
+              list-style: none;
+            li::before{
+              content: "\2022";
+              color: #fec2ad;
+              display: inline-block;
+              width: 1rem;
+            }
+          }
         }
       }
-
       .Skills{
         margin: 1rem;
         padding: 1rem;
-        border-top: 2px solid pink;
-
-        h3{
-          margin-bottom: 2rem;
-        }
+        border-top: 2px solid #fec2ad;
 
         h4{
           font-size: 1.3rem;
           font-weight: bold;
         }
-
+  
         p{
           padding: 1rem;
           width: 75%;
           margin-left: 3rem;
         }
       }
+
     }
 
-    h3{
-      font-family: "Pacifico";
-      font-size: 2.5rem;
-      text-align: center;
-    } 
-
-    .history{
-      padding: 1rem;
-      // border: 2px solid green;
-    }
-  
-    .work{
+    .rightRight{
       display: flex;
-      align-items: center;
-      padding: 1rem;
-      width: 90%;
+      flex-direction: column;
+      // border: 2px solid blue;
+      width: 80%;
   
-      .text{
-        padding-left: 1rem;
-  
-        h4{
-          font-size: 1.3rem;
-          font-weight: bold;
+      .Education{
+        .work{
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          width: 95%;
+      
+          .text{
+            padding-left: 1rem;
+      
+            h4{
+              font-size: 1.3rem;
+              font-weight: bold;
+            }
+    
+            ul{
+                list-style: none;
+              li::before{
+                content: "\2022";
+                color: #fec2ad;
+                display: inline-block;
+                width: 1rem;
+              }
+            }
+          }
         }
       }
+
+      .Projects{
+        margin: 1rem;
+        padding: 1rem;
+        border-top: 2px solid #fec2ad;
+
+        .work{
+          display: flex;
+          align-items: center;
+          padding: 1rem;
+          width: 95%;
+      
+          .text{
+            padding-left: 1rem;
+      
+            h4{
+              font-size: 1.3rem;
+              font-weight: bold;
+            }
+    
+            ul{
+                list-style: none;
+              li::before{
+                content: "\2022";
+                color: #fec2ad;
+                display: inline-block;
+                width: 1rem;
+              }
+            }
+          }
+        }
+      }
+
     }
-
-
+    
   }
+
+
 
 
 
