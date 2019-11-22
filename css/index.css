@@ -186,7 +186,7 @@ table {
   padding: 1rem;
 }
 .right-content {
-  width: 90%;
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
@@ -198,10 +198,12 @@ table {
   text-align: center;
 }
 .right-content .employment {
-  width: 50%;
+  width: 45%;
   border-right: 2px solid #fec2ad;
   display: flex;
   flex-direction: column;
+  padding-right: 1rem;
+  padding-left: 0rem;
 }
 .right-content .employment .work {
   display: flex;
@@ -226,9 +228,9 @@ table {
   width: 1rem;
 }
 .right-content .employment .Skills {
-  margin: 1rem;
-  padding: 1rem;
   border-top: 2px solid #fec2ad;
+  margin-top: 2rem;
+  padding-left: 1rem;
 }
 .right-content .employment .Skills h4 {
   font-size: 1.3rem;
@@ -243,6 +245,8 @@ table {
   display: flex;
   flex-direction: column;
   width: 80%;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 .right-content .rightRight .Education .work {
   display: flex;
@@ -267,15 +271,15 @@ table {
   width: 1rem;
 }
 .right-content .rightRight .Projects {
-  margin: 1rem;
-  padding: 1rem;
   border-top: 2px solid #fec2ad;
+  margin-top: 2rem;
 }
 .right-content .rightRight .Projects .work {
   display: flex;
   align-items: center;
   padding: 1rem;
   width: 95%;
+  margin-top: 1rem;
 }
 .right-content .rightRight .Projects .work .text {
   padding-left: 1rem;
