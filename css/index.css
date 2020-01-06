@@ -135,6 +135,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   background-image: url("../sideImage4.jpg");
   background-size: cover;
 }
@@ -186,9 +187,10 @@ table {
   padding: 1rem;
 }
 .right-content {
-  width: 100%;
+  width: 95%;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -196,102 +198,107 @@ table {
   font-family: "Pacifico";
   font-size: 2.5rem;
   text-align: center;
+  margin-top: 1.5rem;
 }
-.right-content .employment {
-  width: 45%;
+.right-content .right-left {
+  width: 70%;
   border-right: 2px solid #fec2ad;
-  display: flex;
-  flex-direction: column;
-  padding-right: 1rem;
-  padding-left: 0rem;
 }
-.right-content .employment .work {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
+.right-content .right-left .Projects {
   width: 100%;
 }
-.right-content .employment .work .text {
-  padding-left: 1rem;
-}
-.right-content .employment .work .text h4 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.right-content .employment .work .text ul {
-  list-style: none;
-}
-.right-content .employment .work .text ul li::before {
-  content: "\2022";
-  color: #fec2ad;
-  display: inline-block;
-  width: 1rem;
-}
-.right-content .employment .Skills {
-  border-top: 2px solid #fec2ad;
-  margin-top: 2rem;
-  padding-left: 1rem;
-}
-.right-content .employment .Skills h4 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.right-content .employment .Skills p {
-  padding: 1rem;
-  width: 75%;
-  margin-left: 3rem;
-}
-.right-content .rightRight {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-.right-content .rightRight .Education .work {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  width: 95%;
-}
-.right-content .rightRight .Education .work .text {
-  padding-left: 1rem;
-}
-.right-content .rightRight .Education .work .text h4 {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.right-content .rightRight .Education .work .text ul {
-  list-style: none;
-}
-.right-content .rightRight .Education .work .text ul li::before {
-  content: "\2022";
-  color: #fec2ad;
-  display: inline-block;
-  width: 1rem;
-}
-.right-content .rightRight .Projects {
-  border-top: 2px solid #fec2ad;
-  margin-top: 2rem;
-}
-.right-content .rightRight .Projects .work {
+.right-content .right-left .Projects .work {
   display: flex;
   align-items: center;
   padding: 1rem;
   width: 95%;
   margin-top: 1rem;
 }
-.right-content .rightRight .Projects .work .text {
+.right-content .right-left .Projects .work .text {
   padding-left: 1rem;
 }
-.right-content .rightRight .Projects .work .text h4 {
+.right-content .right-left .Projects .work .text h4 {
   font-size: 1.3rem;
   font-weight: bold;
 }
-.right-content .rightRight .Projects .work .text ul {
+.right-content .right-left .Projects .work .text p {
+  margin-left: 1rem;
+}
+.right-content .right-left .Projects .work .text ul {
+  margin-left: 1rem;
   list-style: none;
 }
-.right-content .rightRight .Projects .work .text ul li::before {
+.right-content .right-left .Projects .work .text ul li::before {
+  content: "\2022";
+  color: #fec2ad;
+  display: inline-block;
+  width: 1rem;
+}
+.right-content .right-left .Skills {
+  border-top: 2px solid #fec2ad;
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.right-content .right-left .Skills h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.right-content .right-left .Skills p {
+  padding: 1rem;
+  width: 75%;
+  margin-left: 3rem;
+}
+.right-content .right-right {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-right: 1.2rem;
+}
+.right-content .right-right .Education .work {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 95%;
+}
+.right-content .right-right .Education .work .text {
+  padding-left: 1rem;
+}
+.right-content .right-right .Education .work .text h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.right-content .right-right .Education .work .text ul {
+  list-style: none;
+}
+.right-content .right-right .Education .work .text ul li::before {
+  content: "\2022";
+  color: #fec2ad;
+  display: inline-block;
+  width: 1rem;
+}
+.right-content .right-right .Employment {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #fec2ad;
+  margin-top: 2em;
+}
+.right-content .right-right .Employment .work {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+.right-content .right-right .Employment .work .text {
+  padding-left: 1rem;
+}
+.right-content .right-right .Employment .work .text h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.right-content .right-right .Employment .work .text ul {
+  list-style: none;
+}
+.right-content .right-right .Employment .work .text ul li::before {
   content: "\2022";
   color: #fec2ad;
   display: inline-block;
