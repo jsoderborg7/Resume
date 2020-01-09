@@ -221,17 +221,18 @@ table {
   font-size: 1.3rem;
   font-weight: bold;
 }
-.right-content .right-left .Projects .work .text p {
-  margin-left: 1rem;
-}
 .right-content .right-left .Projects .work .text ul {
   margin-left: 1rem;
   list-style: none;
 }
+.right-content .right-left .Projects .work .text ul li {
+  text-indent: -1rem;
+  padding-left: 1rem;
+}
 .right-content .right-left .Projects .work .text ul li::before {
   content: "\2022";
   color: #fec2ad;
-  display: inline-block;
+  display: inline-flex;
   width: 1rem;
 }
 .right-content .right-left .Skills {
@@ -268,7 +269,12 @@ table {
   font-weight: bold;
 }
 .right-content .right-right .Education .work .text ul {
+  margin-left: 1rem;
   list-style: none;
+}
+.right-content .right-right .Education .work .text ul li {
+  text-indent: -1rem;
+  padding-left: 1rem;
 }
 .right-content .right-right .Education .work .text ul li::before {
   content: "\2022";
@@ -296,7 +302,12 @@ table {
   font-weight: bold;
 }
 .right-content .right-right .Employment .work .text ul {
+  margin-left: 1rem;
   list-style: none;
+}
+.right-content .right-right .Employment .work .text ul li {
+  text-indent: -1rem;
+  padding-left: 1rem;
 }
 .right-content .right-right .Employment .work .text ul li::before {
   content: "\2022";

@@ -155,17 +155,22 @@ table {
             font-weight: bold;
           }
 
-          p{
-            margin-left: 1rem;
-          }
+          // p{
+          //   margin-left: 1rem;
+          // }
   
           ul{
             margin-left: 1rem;
               list-style: none;
+
+              li{
+                text-indent: -1rem;
+                padding-left: 1rem;
+              }
             li::before{
               content: "\2022";
               color: #fec2ad;
-              display: inline-block;
+              display: inline-flex;
               width: 1rem;
             }
           }
@@ -215,7 +220,13 @@ table {
             }
     
             ul{
-                list-style: none;
+              margin-left: 1rem;
+              list-style: none;
+
+              li{
+                text-indent: -1rem;
+                padding-left: 1rem;
+              }
               li::before{
                 content: "\2022";
                 color: #fec2ad;
@@ -248,7 +259,13 @@ table {
             }
     
             ul{
+                margin-left: 1rem;
                 list-style: none;
+  
+                li{
+                  text-indent: -1rem;
+                  padding-left: 1rem;
+                }
               li::before{
                 content: "\2022";
                 color: #fec2ad;
