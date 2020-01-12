@@ -221,6 +221,9 @@ table {
   font-size: 1.3rem;
   font-weight: bold;
 }
+.right-content .right-left .Projects .work .text h5 {
+  font-style: italic;
+}
 .right-content .right-left .Projects .work .text ul {
   margin-left: 1rem;
   list-style: none;
